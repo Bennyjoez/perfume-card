@@ -1,0 +1,70 @@
+body {
+    background-color: blanchedalmond;
+    height: 100%;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
+body div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    margin: 20% auto 0% auto;
+    height: 30%;
+    width: 500px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+img {
+    height: 100%;
+    width: 70%;
+    border-radius: 3px;
+}
+
+.content {
+    
+    height: 70%;
+    width: 50%;
+
+}
+
+.price {
+    color:rgb(4, 100, 4);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+}
+.button {
+    background-color: rgb(7, 41, 7);
+    color: azure;
+    border: none;
+    box-shadow: 0px 0px 2px 2px magenta;
+    width: fit-content;
+    border-radius: 5%;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Courier, monospace;
+}
+
+.button:hover {
+    color: gold;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    body div {
+        width: 70%;
+        min-width: 300px;
+        height: 50%;
+        display: block;
+    }   
+    .image {
+        margin-left: 3em;
+        float: none;
+        padding: 0;
+    }
+    .content {
+        margin: auto;
+    }
+    }
